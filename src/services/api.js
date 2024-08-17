@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const API_URL = "http://localhost:8000";
-const API_URL = "http://ec2-13-235-115-118.ap-south-1.compute.amazonaws.com:8000";
+const API_URL = "http://localhost:8000";
+// const API_URL = "http://ec2-13-235-115-118.ap-south-1.compute.amazonaws.com:8000";
 
 export const savaData = async (data) => {
     try {
